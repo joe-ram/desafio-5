@@ -1,0 +1,30 @@
+body{
+   background: #cccccc;
+   
+}
+.counter-box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: rgba(255, 255,255, 0.7);
+   backdrop-filter: blur(4px);
+   border-radius: 10px;
+   border: 1px solid rgba(255, 255, 255, 0.18);
+   box-shadow: 0 8px 30px rgba(0, 0,0, 0.1);
+   margin: 10px;
+   -webkit-backdrop-filter: blur(4px);
+   width: 500px;
+   height: 350px;
+}
+
+.btn{
+   margin: 10px 0 ;
+   cursor: pointer;
+}
+
+@media (max-width:800px) {
+   .counter-box{
+      max-width: 80vw;
+   }   
+}
